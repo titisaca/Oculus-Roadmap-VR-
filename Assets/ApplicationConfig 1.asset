@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ce2bcdbfcfae94a81a0edcd27ec1ef, type: 3}
+  m_Name: ApplicationConfig 1
+  m_EditorClassIdentifier: 
+  identifier: SampleData
+  groupID: sjl5ZXh3MWV39U
+  _buildKey: 00001
+  placables:
+  - identifier: platano tree
+    prefab: {fileID: 75680869086281657, guid: 4a1fdc84693390f41a01dd2a71ee1f9b, type: 3}
+  - identifier: island 1
+    prefab: {fileID: 1659355022329091096, guid: 58364fd95cf0b534eaab5f81e853dc71, type: 3}
+  - identifier: Mountain
+    prefab: {fileID: 2015876762174583127, guid: 7d999c4f2bc1cdf4cbe2a7a0f8336acb, type: 3}
+  - identifier: bridge
+    prefab: {fileID: 7461146349604542587, guid: 426666e606f5cc347a43bdca5a121f73, type: 3}
+  - identifier: Orchard
+    prefab: {fileID: 697010338028178051, guid: 177780a0244c6bd47baac4ede8c0a27c, type: 3}
+  - identifier: Peach
+    prefab: {fileID: 4578907201032136353, guid: befb40a2846dbb84fb07a13a80d8bf19, type: 3}
+  - identifier: train
+    prefab: {fileID: 234094038670952817, guid: 998a4d682b3f0d64c98d52a0dd5bf6a9, type: 3}
+  - identifier: tunnel
+    prefab: {fileID: 508311847636322944, guid: ea1537596effde345b77cd7f1d3b5262, type: 3}
+  - identifier: WaterBlock_50m
+    prefab: {fileID: 4237352684947193859, guid: c9bd3563af2807b47b38068504af8faa, type: 3}
+  - identifier: waterfall
+    prefab: {fileID: 4487476003863144961, guid: 0f4234a6a40c5b54fae32bbfb7c3cf02, type: 3}
