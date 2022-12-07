@@ -287,9 +287,10 @@ MonoBehaviour:
     a family friendly resort where kids and adults can all have fun. "
   itemLinkTxt: https://www.bigwhite.com/geo/kel
   itemDescriptionTM: {fileID: 0}
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1196776834231676502, guid: 9bf63368adf772349a4542cdd77b876c, type: 3}
   infoClip: {fileID: 8300000, guid: 38e73b90f03a143cc9a806b74f6dc2d9, type: 3}
   tourIcon: {fileID: 1784420899667468500}
+  meshRenderer: {fileID: 0}
 --- !u!54 &271189228654280988
 Rigidbody:
   m_ObjectHideFlags: 0
