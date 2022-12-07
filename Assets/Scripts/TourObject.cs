@@ -14,7 +14,7 @@ public class TourObject : MonoBehaviour
     [SerializeField] private TextMeshPro itemNameTM = null;
     [SerializeField] private string itemDescriptionTxt; //item description
     [SerializeField] private string itemLinkTxt; //Url for the item
-    [SerializeField] private TextMeshProUGUI itemDescriptionTM = null;
+    [SerializeField] private TextMeshPro itemDescriptionTM = null;
     //Audio clip for the tour object
     [SerializeField] public AudioSource audioSource;
     [SerializeField] public AudioClip infoClip;
@@ -22,18 +22,28 @@ public class TourObject : MonoBehaviour
     private int audioSeconds;
     //Tour Icon Parent Object (Must have a mesh collider)
     [SerializeField] private GameObject tourIcon = null;
-    private MeshCollider meshCollider;
+    [SerializeField] private MeshRenderer meshRenderer;
+    private CapsuleCollider meshCollider;
     //Material used for albedo color fading
     private Material material;
    
   
 
     private void start() {
+        if (tourIcon != null){
+            meshRenderer = tourIcon.GetComponent<MeshRenderer>();    
+        }
+        else
+        {
+            meshRenderer = GetComponent<MeshRenderer>();    
+
+        }
             audioDuration = infoClip.length;
             audioSeconds = (int)Math.Ceiling(audioDuration);
             Debug.Log("Cip Name: " + itemNameTxt + " Clip Length " + audioSeconds);
-            meshCollider = tourIcon.GetComponent<MeshCollider>();
+            meshCollider = tourIcon.GetComponent<CapsuleCollider>();
             material = tourIcon.GetComponent<Renderer>().material;
+           material = meshRenderer.material;
             itemNameTM.text = itemNameTxt;
 
     }
@@ -41,10 +51,11 @@ public class TourObject : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other) {
         
-        meshCollider.enabled = false;
+//        meshCollider.enabled = false;
         if(other.CompareTag("Player")) {
             itemNameTM.text = "";
-            explode.Play();            
+            explode.Play(); 
+                   
             //samar play the information audio
             audioSource.Stop();
 
@@ -52,7 +63,9 @@ public class TourObject : MonoBehaviour
             StartCoroutine(clearText());
             // pointsText.text = map.Any() ? map[tourItem] : "No data";
             // itemDescriptionTM.text = map.Any() ? map[itemNameTxt] : "No data";
-            itemDescriptionTM.text = itemDescriptionTxt;
+             if (itemDescriptionTM != null){
+                itemDescriptionTM.text = itemDescriptionTxt;
+            }   
             StartCoroutine(iconFade());
            
         }
