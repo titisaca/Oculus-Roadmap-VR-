@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1960984818188619137, guid: 05367d4c8ab8c1642bc41c57ae1af098, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1960984818193004861, guid: 05367d4c8ab8c1642bc41c57ae1af098, type: 3}
       propertyPath: m_Enabled
@@ -446,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 3712792764165016376, guid: 15b3b6936abd38f4da7abde3be5f189d, type: 3}
       propertyPath: applicationConfig
       value: 
-      objectReference: {fileID: 11400000, guid: abeeec6325d552e45a5058619b234d98, type: 2}
+      objectReference: {fileID: 11400000, guid: c6f8219fd5a6d2d4a95aff4baa566c51, type: 2}
     - target: {fileID: 3712792764165016379, guid: 15b3b6936abd38f4da7abde3be5f189d, type: 3}
       propertyPath: CurrentPlatform
       value: 0
