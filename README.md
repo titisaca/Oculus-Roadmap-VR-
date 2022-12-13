@@ -22,8 +22,10 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
+<br>
+<div>
 ![alt text](https://d1nslcd7m2225b.cloudfront.net/Pictures/480xany/6/0/7/1279607_readyplayerone_268421.jpg)
-
+</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
