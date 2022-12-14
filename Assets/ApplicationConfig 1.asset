@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   identifier: SampleData
   groupID: sjl5ZXh3MWV39U
-  _buildKey: 00001
+  _buildKey: 00004
   placables:
   - identifier: Big White icon
     prefab: {fileID: 1784420899667468500, guid: b2f819a519f5d1e44aee9a8ab35d53e0, type: 3}
