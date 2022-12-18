@@ -43,7 +43,7 @@ public class TourObject : MonoBehaviour
             Debug.Log("Cip Name: " + itemNameTxt + " Clip Length " + audioSeconds);
             meshCollider = tourIcon.GetComponent<CapsuleCollider>();
             material = tourIcon.GetComponent<Renderer>().material;
-           material = meshRenderer.material;
+            material = meshRenderer.material;
             itemNameTM.text = itemNameTxt;
 
     }
