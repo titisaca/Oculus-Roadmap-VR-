@@ -9,14 +9,14 @@ TerrainLayer:
   m_Name: Grass_B_TerrainLayer
   m_DiffuseTexture: {fileID: 2800000, guid: 37e49f09642031d4f9876d1df780be63, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: eb70932bab3d971408c011dbb45767a9, type: 3}
-  m_MaskMapTexture: {fileID: 2800000, guid: 0f48eac8617d0de4cbc056e1734e798b, type: 3}
+  m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 1528.741, y: 1222.992}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0.20696968, g: 0.7264151, b: 0.13363299, a: 1}
   m_Metallic: 0
   m_Smoothness: 0
-  m_NormalScale: 1
+  m_NormalScale: 0
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
-  m_DiffuseRemapMax: {x: 0.7924528, y: 0.7407288, z: 0.55695975, w: 1}
+  m_DiffuseRemapMax: {x: 1, y: 0.99693394, z: 0.9858491, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_MaskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
