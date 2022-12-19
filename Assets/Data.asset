@@ -16,27 +16,23 @@ MonoBehaviour:
   groupID: sjl5ZXh3MWV39U
   _buildKey: 00001
   placables:
-  - identifier: Peach
-    prefab: {fileID: 7652571170630772329, guid: fa3ca7a6dab9bee40aeae4e0682018ec, type: 3}
-  - identifier: model
-    prefab: {fileID: 3771588480364875862, guid: 1e12871d71c2f064c8728c14574134cc, type: 3}
-  - identifier: most
-    prefab: {fileID: 2252315871024623136, guid: 1aa25cd802a2ff54d8287b1be0765e27, type: 3}
-  - identifier: Mountain
-    prefab: {fileID: 111665871047046489, guid: 9c065f598ab711744948fa4b03bc953f, type: 3}
-  - identifier: scaniverse
-    prefab: {fileID: 1288796934178765193, guid: ff6d07e0d85e4ae49b6476ce98315d05, type: 3}
-  - identifier: train
-    prefab: {fileID: 5322405874276595944, guid: db9cdf4dc578520418971c65367fce33, type: 3}
-  - identifier: trestle bridge
-    prefab: {fileID: 8480917404315379055, guid: a5c90543b1c762641b766562a14d43c1, type: 3}
-  - identifier: park
-    prefab: {fileID: 9002464402794196502, guid: 61881c3b5920c4a1cbf230264d990512, type: 3}
-  - identifier: rock
-    prefab: {fileID: 7976716205616327022, guid: 613e109c0d2b24d3fa61204b63d8cc2b, type: 3}
-  - identifier: pop dancer
-    prefab: {fileID: 9081975306632856850, guid: 36e8faceace6542f3a714295c8aac2a1, type: 3}
-  - identifier: platano tree
-    prefab: {fileID: 75680869086281657, guid: 4a1fdc84693390f41a01dd2a71ee1f9b, type: 3}
-  - identifier: water
-    prefab: {fileID: 7976716205616327022, guid: 06175a8a1179646089a59b91a0096945, type: 3}
+  - identifier: BigWhiteInfo
+    prefab: {fileID: 586652558137095519, guid: 9f6cc8f55fd8d1440991e057cc90e94b, type: 3}
+  - identifier: BridgeWithInfo
+    prefab: {fileID: 4643558142483433581, guid: 5c41abe09337a4443877a8d197b49fdd, type: 3}
+  - identifier: FintryWithInfo
+    prefab: {fileID: 6575274003249910450, guid: 4b0aa9a1da7dc0e4193b21ed8a610d20, type: 3}
+  - identifier: LittleTunnelWithInfo
+    prefab: {fileID: 2185538349808484023, guid: 56ad6ec16d570b04ca433459659682f6, type: 3}
+  - identifier: NaramataInfo
+    prefab: {fileID: 525888388471802016, guid: 153bee6bce1ffcc45853d220382e8621, type: 3}
+  - identifier: PeachWithInfo
+    prefab: {fileID: 4241131505418561370, guid: 5af43c660f126264c8977c2a1ee1832f, type: 3}
+  - identifier: RattleSnakeInfo
+    prefab: {fileID: 4647373702808087007, guid: 1e8c9a1229be4614fb8a096d2e051224, type: 3}
+  - identifier: TrainWithInfo
+    prefab: {fileID: 2560714289148717777, guid: 22d90346b81e6714e9c7e90d0ee1292b, type: 3}
+  boxDisplayConfiguration: {fileID: 11400000, guid: d35d83b00d0d3ed45ae40f0d4f92cba7, type: 2}
+  scaleHandlesConfiguration: {fileID: 11400000, guid: f8661cd96f8601e45b68a8cecd9c3940, type: 2}
+  rotationHandlesConfiguration: {fileID: 11400000, guid: 17b8359ee54c7ec4e806f32d46e66e55, type: 2}
+  translationHandlesConfig: {fileID: 11400000, guid: 0a89d45f428a82c4d9553ffed2a50688, type: 2}
