@@ -16,14 +16,14 @@ MonoBehaviour:
   groupID: sjl5ZXh3MWV39U
   _buildKey: 00001
   placables:
+  - identifier: LittleTunnelWithInfo
+    prefab: {fileID: 2185538349808484023, guid: 56ad6ec16d570b04ca433459659682f6, type: 3}
   - identifier: BigWhiteInfo
     prefab: {fileID: 586652558137095519, guid: 9f6cc8f55fd8d1440991e057cc90e94b, type: 3}
   - identifier: BridgeWithInfo
     prefab: {fileID: 4643558142483433581, guid: 5c41abe09337a4443877a8d197b49fdd, type: 3}
   - identifier: FintryWithInfo
     prefab: {fileID: 6575274003249910450, guid: 4b0aa9a1da7dc0e4193b21ed8a610d20, type: 3}
-  - identifier: LittleTunnelWithInfo
-    prefab: {fileID: 2185538349808484023, guid: 56ad6ec16d570b04ca433459659682f6, type: 3}
   - identifier: NaramataInfo
     prefab: {fileID: 525888388471802016, guid: 153bee6bce1ffcc45853d220382e8621, type: 3}
   - identifier: PeachWithInfo
