@@ -141,6 +141,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 11400000, guid: 1e7f8a81d5b840740ab98a4a95c7d682, type: 2}
   - {fileID: -8200804442689795647, guid: b59a7ca4a1ad85f40b05701a632bc640, type: 2}
+  - {fileID: 3268898644678362593, guid: 0b3622e6d22650d4ab524f9cb17c0fbe, type: 2}
   - {fileID: 11400000, guid: 635d7a4ef8c17dc46929a2292d1519f1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -252,7 +253,7 @@ PlayerSettings:
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
   useCustomProguardFile: 0
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 2
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -731,11 +732,13 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: OCULUSINTEGRATION_PRESENT
-    Standalone: OCULUSINTEGRATION_PRESENT
+    Android: OCULUSINTEGRATION_PRESENT;USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
+    Standalone: OCULUSINTEGRATION_PRESENT;USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
+    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel: {}
@@ -822,7 +825,7 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
