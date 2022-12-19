@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d9acc7968244a8886f3af591305bcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeProfile: {fileID: 11400000, guid: ab85ab679a6a9cb48bb7fdc4e7c795c3, type: 2}
+  activeProfile: {fileID: 11400000, guid: df80f7f2bd0c5be46aa68d3abca527fa, type: 2}
 --- !u!4 &14021949
 Transform:
   m_ObjectHideFlags: 0
@@ -5495,7 +5495,7 @@ MonoBehaviour:
     storedStabilitySamples: 60
   gazeTransform: {fileID: 0}
   minHeadVelocityThreshold: 0.5
-  maxHeadVelocityThreshold: 2
+  maxHeadVelocityThreshold: 5
 --- !u!114 &1512055434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9450,7 +9450,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196776834118240490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c82c29ad467e9234295677d0eeeb7e11, type: 3}
   m_Name: 
@@ -9588,7 +9588,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196776834118240490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f28713965cf94764084728968af0e1c2, type: 3}
   m_Name: 
@@ -9628,13 +9628,30 @@ GameObject:
   - component: {fileID: 1196776834118240464}
   - component: {fileID: 1196776834118240467}
   - component: {fileID: 1196776834118240466}
+  - component: {fileID: 1196776834118240491}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Ogopogo
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1196776834118240491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196776834118240490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e69c667d52849341ab74ac808681083, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1512055431}
+  smoothSpeed: 1.125
+  locationOffset: {x: 0, y: -1, z: 37}
+  rotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1196776834454497634
 GameObject:
   m_ObjectHideFlags: 0
@@ -14439,7 +14456,7 @@ Terrain:
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
-  m_SplatMapDistance: 1000
+  m_SplatMapDistance: 10
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
@@ -14447,7 +14464,7 @@ Terrain:
   m_DrawTreesAndFoliage: 1
   m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: e692d1c5c9171d741a4f656d8e109b16, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: 64a25621b26a8364cb8da8f0e7ac09c3, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1

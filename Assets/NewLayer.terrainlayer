@@ -12,7 +12,7 @@ TerrainLayer:
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 2, y: 2}
   m_TileOffset: {x: 0, y: 0}
-  m_Specular: {r: 1, g: 0, b: 0, a: 0}
+  m_Specular: {r: 0.42547658, g: 0.7075472, b: 0.33041117, a: 0.5019608}
   m_Metallic: 1
   m_Smoothness: 1
   m_NormalScale: 1
