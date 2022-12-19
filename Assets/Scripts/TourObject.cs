@@ -23,13 +23,13 @@ public class TourObject : MonoBehaviour
     //Tour Icon Parent Object (Must have a mesh collider)
     [SerializeField] private GameObject tourIcon = null;
     [SerializeField] private MeshRenderer meshRenderer;
-    private CapsuleCollider meshCollider;
+    [SerializeField] private CapsuleCollider capsuleCollider;
     //Material used for albedo color fading
     private Material material;
    
   
 
-    private void start() {
+    private void Awake() {
         if (tourIcon != null){
             meshRenderer = tourIcon.GetComponent<MeshRenderer>();    
         }
@@ -41,7 +41,7 @@ public class TourObject : MonoBehaviour
             audioDuration = infoClip.length;
             audioSeconds = (int)Math.Ceiling(audioDuration);
             Debug.Log("Cip Name: " + itemNameTxt + " Clip Length " + audioSeconds);
-            meshCollider = tourIcon.GetComponent<CapsuleCollider>();
+            capsuleCollider = tourIcon.GetComponent<CapsuleCollider>();
             material = tourIcon.GetComponent<Renderer>().material;
             material = meshRenderer.material;
             itemNameTM.text = itemNameTxt;
@@ -51,15 +51,16 @@ public class TourObject : MonoBehaviour
     // Start is called before the first frame update
     void OnTriggerEnter(Collider other) {
         
-//        meshCollider.enabled = false;
+        //capsuleCollider.enabled = false;
         if(other.CompareTag("Player")) {
             itemNameTM.text = "";
             explode.Play(); 
                    
             //samar play the information audio
-            audioSource.Stop();
+            audioSource = other.GetComponentInParent<AudioSource>();
+            audioSource?.Stop();
 
-            audioSource.PlayOneShot(infoClip);
+            audioSource?.PlayOneShot(infoClip);
             StartCoroutine(clearText());
             // pointsText.text = map.Any() ? map[tourItem] : "No data";
             // itemDescriptionTM.text = map.Any() ? map[itemNameTxt] : "No data";
@@ -77,7 +78,7 @@ public class TourObject : MonoBehaviour
         for(int i = 0; i < 10; i++) {
             Color color = material.color;
             color.a = (10f-(float)i )/10f;
-            // Debug.Log(color.a.ToString());
+            Debug.Log(color.a.ToString());
             material.color = color;
             yield return new WaitForSeconds(.1f);
         }
