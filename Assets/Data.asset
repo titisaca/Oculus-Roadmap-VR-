@@ -17,7 +17,7 @@ MonoBehaviour:
   _buildKey: 00001
   placables:
   - identifier: LittleTunnelWithInfo
-    prefab: {fileID: 2185538349808484023, guid: 56ad6ec16d570b04ca433459659682f6, type: 3}
+    prefab: {fileID: 1388487283412283340, guid: b5d7ec777f9a57140b79d894cf684004, type: 3}
   - identifier: BigWhiteInfo
     prefab: {fileID: 586652558137095519, guid: 9f6cc8f55fd8d1440991e057cc90e94b, type: 3}
   - identifier: BridgeWithInfo

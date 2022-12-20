@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9ce2bcdbfcfae94a81a0edcd27ec1ef, type: 3}
+  m_Name: FINAL info prefabs
+  m_EditorClassIdentifier: 
+  identifier: FinalSampleData
+  groupID: sjl5ZXh3MWV39U
+  _buildKey: 00001
+  placables:
+  - identifier: BigWhiteInfo final
+    prefab: {fileID: 2437918528544609962, guid: 5144889b64cdec14bbd1d6aa24fe6fa1, type: 3}
+  - identifier: BridgeWithInfo final
+    prefab: {fileID: 4643558142483433581, guid: 5c41abe09337a4443877a8d197b49fdd, type: 3}
+  - identifier: FintryWithInfo final
+    prefab: {fileID: 6575274003249910450, guid: 4b0aa9a1da7dc0e4193b21ed8a610d20, type: 3}
+  - identifier: LittleTunnelWithInfo final
+    prefab: {fileID: 8236792697144653681, guid: 9ae4d30fdd3183143ab498042fac2aba, type: 3}
+  - identifier: NaramataInfo final
+    prefab: {fileID: 525888388471802016, guid: 153bee6bce1ffcc45853d220382e8621, type: 3}
+  - identifier: PeachWithInfo final
+    prefab: {fileID: 4241131505418561370, guid: 5af43c660f126264c8977c2a1ee1832f, type: 3}
+  - identifier: RattleSnakeInfo final
+    prefab: {fileID: 3528464793151347255, guid: 21c6029bb096fd54da2a6507b84e1ab2, type: 3}
+  - identifier: TrainWithInfo final
+    prefab: {fileID: 2560714289148717777, guid: 22d90346b81e6714e9c7e90d0ee1292b, type: 3}
+  - identifier: Big White icon
+    prefab: {fileID: 1784420899667468500, guid: b2f819a519f5d1e44aee9a8ab35d53e0, type: 3}
+  - identifier: Fintry icon
+    prefab: {fileID: 7647758488314300255, guid: 69ec26218b6cc3c46b80ccf478dc34b9, type: 3}
+  - identifier: Kelowna Bridge icon
+    prefab: {fileID: 7300504525784841609, guid: 382bf88e353bfdc4194a2422a43a9fa8, type: 3}
+  - identifier: KVR icon
+    prefab: {fileID: 1751508311855944479, guid: a749119c7016ca842a20c6190a0fe620, type: 3}
+  - identifier: Little Tunnel icon
+    prefab: {fileID: 5034088822599129852, guid: 1b50adf8f0131784d9f4c697b500b5b3, type: 3}
+  - identifier: Naramata icon
+    prefab: {fileID: 5018418635519965106, guid: d8a2f27bf0d83474b886713b3700f5fe, type: 3}
+  - identifier: Peach icon
+    prefab: {fileID: 5319993632773308694, guid: 9cc9997f76854824c962573ac9cbc58e, type: 3}
+  - identifier: RattleSnakeIsland icon
+    prefab: {fileID: 2577576543695487455, guid: e9a9f204f222a8c4e9d432eca566ce17, type: 3}
+  boxDisplayConfiguration: {fileID: 11400000, guid: d35d83b00d0d3ed45ae40f0d4f92cba7, type: 2}
+  scaleHandlesConfiguration: {fileID: 11400000, guid: f8661cd96f8601e45b68a8cecd9c3940, type: 2}
+  rotationHandlesConfiguration: {fileID: 11400000, guid: 17b8359ee54c7ec4e806f32d46e66e55, type: 2}
+  translationHandlesConfig: {fileID: 11400000, guid: 0a89d45f428a82c4d9553ffed2a50688, type: 2}

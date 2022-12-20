@@ -12,9 +12,9 @@ public class TourObject : MonoBehaviour
     //item labels + descriptions  and their corrosponding Text Mesh UI
     [SerializeField] private string itemNameTxt;
     [SerializeField] private TextMeshPro itemNameTM = null;
-    [SerializeField] private string itemDescriptionTxt; //item description
-    [SerializeField] private string itemLinkTxt; //Url for the item
-    [SerializeField] private TextMeshPro itemDescriptionTM = null;
+    //[SerializeField] private string itemDescriptionTxt; //item description
+   // [SerializeField] private string itemLinkTxt; //Url for the item
+    //[SerializeField] private TextMeshPro itemDescriptionTM = null;
     //Audio clip for the tour object
     [SerializeField] public AudioSource audioSource;
     [SerializeField] public AudioClip infoClip;
@@ -64,9 +64,9 @@ public class TourObject : MonoBehaviour
             StartCoroutine(clearText());
             // pointsText.text = map.Any() ? map[tourItem] : "No data";
             // itemDescriptionTM.text = map.Any() ? map[itemNameTxt] : "No data";
-             if (itemDescriptionTM != null){
-                itemDescriptionTM.text = itemDescriptionTxt;
-            }   
+            //  if (itemDescriptionTM != null){
+            //     itemDescriptionTM.text = itemDescriptionTxt;
+            // }   
             StartCoroutine(iconFade());
            
         }
@@ -87,7 +87,7 @@ public class TourObject : MonoBehaviour
 
     private IEnumerator clearText() {
         yield return new WaitForSeconds(audioDuration);
-        itemDescriptionTM.text = "";
+       // itemDescriptionTM.text = "";
         Destroy(tourIcon, 1.5f);
         
         
